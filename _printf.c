@@ -7,10 +7,10 @@
 int _printf(const char *format, ...)
 {
 match m[] = {
-{"%c", print_char}, {"%s", print_string}
-{"%%", print_37}, {"%d", print_dec}, {"%i", print_int}
-{"%r", print_revstr}, {"%R", print_rot13}, {"%b", print_bin}
-{"%u", print_unsigned}, {"%o", print_oct}, {"%x", print_hex}
+{"%c", print_char}, {"%s", print_string},
+{"%%", print_37}, {"%d", print_dec}, {"%i", print_int},
+{"%r", print_revstr}, {"%R", print_rot13}, {"%b", print_bin},
+{"%u", print_unsigned}, {"%o", print_oct}, {"%x", print_hex},
 {"%X", print_HEX}, {"%S", print_exc_string}, {"%p", print_pointer}
 };
 
