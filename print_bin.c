@@ -14,7 +14,7 @@ unsigned int p;
 
 for (i = 0; i < 32; i++)
 {
-p = ((a << (31 - i )) & num);
+p = ((a << (31 - i)) & num);
 if (p >> (31 - i))
 flag = 1;
 if (flag)

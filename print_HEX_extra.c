@@ -18,7 +18,7 @@ num = num / 16;
 counter++;
 }
 counter++;
-array = malloc(counter * sizeof(int));
+array = malloc(counter *sizeof(int));
 
 for (x = 0; x < counter; x++)
 {

@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_37 - prints char % 
+ * print_37 - prints char %
  * Return: 1.
  */
 
